@@ -1,6 +1,10 @@
 body{
     margin: 0px; /* Margem Externa*/
     padding: 0px; /* Margem Interna*/
+    background: 
+    linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%);
+    background-repeat: no-repeat;
+
 }
 #navPrincipal{
     width: 100%;
@@ -13,7 +17,7 @@ body{
     border-bottom: 1px solid #bababa;
 }
     #menuSup{
-        display: flex;
+        display: flex; 
         width: 55%;
         justify-content: space-around;
         align-items: center;
