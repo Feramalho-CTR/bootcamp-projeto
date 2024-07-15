@@ -1,10 +1,14 @@
 body{
-    margin: 0px; /* Margem Externa*/
-    padding: 0px; /* Margem Interna*/
-    background: 
-    linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+    height: 100%;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 1) 20%,rgba(0, 0, 0, 1) 50%);    
     background-repeat: no-repeat;
-
+    
+   
 }
 #navPrincipal{
     width: 100%;
